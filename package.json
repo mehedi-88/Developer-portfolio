@@ -1,0 +1,53 @@
+{
+  "name": "dms-mehedi-portfolio",
+  "version": "1.0.0",
+  "description": "Modern, premium portfolio website for DMS MEHEDI - Digital Marketing Expert, Web Developer, and Shopify Dropshipping Specialist",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'No build process required for static site'",
+    "deploy:netlify": "echo 'Drag and drop to Netlify or use Netlify CLI'",
+    "deploy:vercel": "vercel",
+    "deploy:github": "echo 'Push to GitHub and enable Pages'",
+    "lint:html": "echo 'Consider using htmlhint for HTML validation'",
+    "lint:css": "echo 'Consider using stylelint for CSS validation'",
+    "lint:js": "echo 'Consider using eslint for JavaScript validation'",
+    "test": "echo 'Open index.html in browser to test'",
+    "optimize:images": "echo 'Use tools like ImageOptim or TinyPNG to optimize images'",
+    "minify:css": "echo 'Consider using cssnano for CSS minification'",
+    "minify:js": "echo 'Consider using terser for JavaScript minification'"
+  },
+  "keywords": [
+    "portfolio",
+    "digital-marketing",
+    "web-development",
+    "shopify",
+    "dropshipping",
+    "responsive",
+    "modern",
+    "premium"
+  ],
+  "author": "DMS MEHEDI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/dms-mehedi-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/dms-mehedi-portfolio/issues"
+  },
+  "homepage": "https://dmsmehedi.com",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "private": true
+}
