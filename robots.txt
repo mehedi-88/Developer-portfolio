@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dmsmehedi.com/sitemap.xml
+
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow crawling of any admin or private areas (if added later)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow crawling of all public content
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /portfolio/
+Allow: /services/
+Allow: /about/
+Allow: /contact/
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1

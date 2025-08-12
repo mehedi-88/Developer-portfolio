@@ -1,74 +1,680 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEHEDI portfolio</title>
+    <title>DMS MEHEDI - Digital Marketing Expert • Web Developer • Shopify Specialist</title>
+    <meta name="description" content="DMS MEHEDI - Professional Digital Marketing Expert, Web Developer, and Shopify Dropshipping Specialist. Transform your business with data-driven strategies and cutting-edge web solutions.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="DMS MEHEDI - Digital Marketing Expert • Web Developer • Shopify Specialist">
+    <meta property="og:description" content="Professional Digital Marketing Expert, Web Developer, and Shopify Dropshipping Specialist. Transform your business with data-driven strategies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dmsmehedi.com">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DMS MEHEDI - Digital Marketing Expert • Web Developer • Shopify Specialist">
+    <meta name="twitter:description" content="Professional Digital Marketing Expert, Web Developer, and Shopify Dropshipping Specialist.">
+    <meta name="twitter:image" content="images/og-image.jpg">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "DMS MEHEDI",
+        "jobTitle": "Digital Marketing Expert, Web Developer, Shopify Dropshipping Specialist",
+        "description": "Professional Digital Marketing Expert, Web Developer, and Shopify Dropshipping Specialist",
+        "email": "dmsmehedis@gmail.com",
+        "telephone": "+8801817938342",
+        "url": "https://dmsmehedi.com",
+        "sameAs": [
+            "https://linkedin.com/in/dmsmehedi",
+            "https://twitter.com/dmsmehedi"
+        ]
+    }
+    </script>
+    
+    <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
-
 <body>
-    <section class="top-banner flexible-container">
-        <div class="half-widht">
-            <h1>Welcome TO</h1>
-            <h1><span class="orange-color">MEHEDI HASAN</span> World</h1>
-            <h3>Build Climber and Trains Stopper</h3>
-            <p>You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that
-                work.
-                That's why I am learning and mastering web development. I will not stop until I become the Web
-                Development
-                Hero.</p>
-            <a class="link-button" target="_blank" href="https://www.linkedin.com/in/md-mehedi-hasan-42862a208/">HIRE
-                ME</a>
-        </div>
-        <div class="half widht">
-            <img src="images/my-bg.png" alt="">
-        </div>
-    </section>
-    <section class="dream-big flexible-container">
-        <div class="half widht">
-            <img src="images/my-bg2ms.png" alt="">
-        </div>
-        <div class="half widht">
-            <h1>Dream Big</h1>
-            <h2>Become a Web Developer</h2>
-            <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how
-                to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
-            <a class="link-button" target="_blank" href="">DOWNLOAD RESUME</a>
-        </div>
-
-    </section>
-    <section class="experience-area">
-        <h1>Experiences</h1>
-        <div class="flexible-container">
-            <div id="full-stack-experience" class="experience-item">
-                <h2>Full Stack Developer</h2>
-                <h3 class="orange-color">2022-present|pro Level Developer</h3>
-                <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function,
-                    efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called
-                    Vue
-                    JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">DMS MEHEDI</a>
             </div>
-            <div id="Web-dev-experience" class="experience-item">
-                <h2>MEHEDI Web Developer</h2>
-                <h3 class="orange-color">2020-2021 | Programming Hero Learner</h3>
-                <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and
-                    showed
-                    it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hero-name">DMS MEHEDI</span>
+                        <div class="hero-subtitle">
+                            <span class="typing-text" id="typing-text"></span>
+                        </div>
+                    </h1>
+                    <p class="hero-description">
+                        Transforming businesses through strategic digital marketing, cutting-edge web development, and optimized Shopify solutions. Let's build your success story together.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#services" class="btn btn-secondary">View Services</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <p>Upload your photo here</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>& peter parker 2024, a Programming Hero intiative.</p>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate professional dedicated to digital excellence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>DMS MEHEDI</h3>
+                    <p>I'm a results-driven digital marketing expert, web developer, and Shopify dropshipping specialist with over 5 years of experience helping businesses achieve their online goals.</p>
+                    <p>My approach combines data-driven strategies with creative solutions, ensuring every project delivers measurable results. I specialize in creating high-converting websites, implementing effective marketing campaigns, and optimizing Shopify stores for maximum profitability.</p>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Digital Marketing</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">SEO</span>
+                                <span class="skill-tag">Google Ads</span>
+                                <span class="skill-tag">Facebook Ads</span>
+                                <span class="skill-tag">Content Marketing</span>
+                                <span class="skill-tag">Analytics</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">WordPress</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Shopify & Dropshipping</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Store Setup</span>
+                                <span class="skill-tag">Product Research</span>
+                                <span class="skill-tag">Conversion Optimization</span>
+                                <span class="skill-tag">Marketing Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <p>Upload your headshot here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for your digital success</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="digital-marketing">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic SEO, targeted advertising campaigns, and data-driven content marketing to boost your online presence and drive conversions.</p>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('digital-marketing')">
+                        Learn More <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="service-details" id="digital-marketing-details">
+                        <ul>
+                            <li>Search Engine Optimization (SEO)</li>
+                            <li>Google Ads & Facebook Ads Management</li>
+                            <li>Content Marketing & Strategy</li>
+                            <li>Social Media Marketing</li>
+                            <li>Email Marketing Campaigns</li>
+                            <li>Analytics & Performance Tracking</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="web-development">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites and web applications built with cutting-edge technologies for optimal performance and user experience.</p>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('web-development')">
+                        Learn More <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="service-details" id="web-development-details">
+                        <ul>
+                            <li>Responsive Website Design</li>
+                            <li>Custom Web Applications</li>
+                            <li>Landing Page Optimization</li>
+                            <li>Performance & Speed Optimization</li>
+                            <li>SEO-Friendly Development</li>
+                            <li>Third-party Integrations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="shopify-dropshipping">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Shopify & Dropshipping</h3>
+                    <p>Complete Shopify store setup, product research, and conversion optimization to maximize your dropshipping business success.</p>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('shopify-dropshipping')">
+                        Learn More <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="service-details" id="shopify-dropshipping-details">
+                        <ul>
+                            <li>Shopify Store Setup & Design</li>
+                            <li>Product Research & Selection</li>
+                            <li>Conversion Rate Optimization</li>
+                            <li>Marketing Strategy & Ads</li>
+                            <li>Automation & Scaling</li>
+                            <li>Performance Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Section -->
+            <div class="pricing-section">
+                <h3>Choose Your Plan</h3>
+                <div class="pricing-toggle">
+                    <span>Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricing-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span>Yearly <span class="discount">Save 20%</span></span>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>Starter</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="299" data-yearly="239">299</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                            <li><i class="fas fa-check"></i> Social Media Management</li>
+                            <li><i class="fas fa-check"></i> Monthly Analytics Report</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h4>Pro</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="599" data-yearly="479">599</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Advanced SEO & PPC</li>
+                            <li><i class="fas fa-check"></i> Content Marketing</li>
+                            <li><i class="fas fa-check"></i> Weekly Analytics Report</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Custom Strategy</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>Elite</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount" data-monthly="999" data-yearly="799">999</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Full-Service Marketing</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                            <li><i class="fas fa-check"></i> Daily Analytics Report</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            <li><i class="fas fa-check"></i> Custom Solutions</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio & Case Studies</h2>
+                <p class="section-subtitle">Real results from real projects</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="shopify">Shopify</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce SEO Campaign</h3>
+                        <p>Increased organic traffic by 300% for an online store</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">SEO</span>
+                            <span class="tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Website Redesign</h3>
+                        <p>Modern responsive website with 40% improvement in conversion</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="shopify">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Dropshipping Store Setup</h3>
+                        <p>Complete Shopify store generating $50K+ monthly revenue</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Shopify</span>
+                            <span class="tag">Dropshipping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Facebook Ads Campaign</h3>
+                        <p>ROAS of 4.2x for a local service business</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Facebook Ads</span>
+                            <span class="tag">ROAS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Landing Page Optimization</h3>
+                        <p>Conversion rate increased from 2.1% to 8.7%</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Landing Page</span>
+                            <span class="tag">CRO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="shopify">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Upload project image</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Product Research & Launch</h3>
+                        <p>Identified winning products generating $100K+ profit</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Product Research</span>
+                            <span class="tag">Launch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What my clients say about working together</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"DMS MEHEDI transformed our online presence completely. Our website traffic increased by 400% and conversions improved dramatically. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <span>CEO, TechStart Inc.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Working with DMS MEHEDI on our Shopify store was incredible. He set up everything perfectly and our sales increased by 300% in the first month."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <span>Founder, FashionForward</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The digital marketing strategies implemented by DMS MEHEDI helped us achieve our revenue goals ahead of schedule. His expertise is unmatched!"</p>
+                        <div class="testimonial-author">
+                            <h4>Emily Rodriguez</h4>
+                            <span>Marketing Director, GrowthCo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="changeTestimonial(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentTestimonial(1)"></span>
+                    <span class="dot" onclick="currentTestimonial(2)"></span>
+                    <span class="dot" onclick="currentTestimonial(3)"></span>
+                </div>
+                <button class="carousel-btn next" onclick="changeTestimonial(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to start your project? Let's discuss how I can help you achieve your goals.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:dmsmehedis@gmail.com">dmsmehedis@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+8801817938342">+880 1817 938 342</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <span>Within 24 hours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number (Optional)</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service Interest</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="shopify-dropshipping">Shopify & Dropshipping</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        <!-- Honeypot field for spam protection -->
+                        <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DMS MEHEDI</h3>
+                    <p>Transforming businesses through strategic digital solutions and innovative web development.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Shopify & Dropshipping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> dmsmehedis@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +880 1817 938 342</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DMS MEHEDI. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-</body>
 
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Message Sent Successfully!</h3>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>Thanks for your message! We've received it and will reply within 24 hours.</p>
+                <p class="modal-signature">— DMS MEHEDI</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Configuration -->
+    <script src="config.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
